@@ -1,0 +1,74 @@
+::-webkit-scrollbar{
+  background: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.calendario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+.mes-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+#mes {
+  padding: 20px;
+}
+.btn {
+  background: none;
+  border: none;
+}
+#semana {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 17px;
+}
+.dias-da-semana {
+  padding: 10px;
+}
+#datas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-left: 32px;
+}
+#datas > div:nth-child(1) {
+  margin-left: 65px;
+}
+.data {
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.568);
+  width: 50px;
+  padding: 15px 0px;
+  font-size: 1.3em;
+}
+.dia-atual{
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+.ano-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+#ano {
+  padding: 20px;
+}
